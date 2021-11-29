@@ -1,0 +1,17 @@
+---
+title: "About me"
+description: |
+  Here are some fun facts!
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+I can add text, [links](www.macalester.edu), code, plots, etc, just like any other Rmd!
+
+```{r}
+# Make a histogram
+hist(rnorm(1000))
+```
+

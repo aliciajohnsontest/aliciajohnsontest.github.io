@@ -1,0 +1,27 @@
+---
+title: "Data wrangling"
+description: |
+  I did some data cleaning!
+preview: https://www.minnpost.com/wp-content/uploads/2018/09/MacalesterCollegeStoneSignThumb.png
+date: 01-02-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+Let's wrangle.
+
+```{r}
+library(bayesrules)
+library(tidyverse)
+```
+
+```{r}
+data(penguins_bayes)
+penguins_bayes %>% 
+  group_by(species) %>% 
+  summarize(max(flipper_length_mm))
+```
+
+

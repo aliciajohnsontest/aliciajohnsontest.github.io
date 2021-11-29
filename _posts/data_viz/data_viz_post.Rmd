@@ -1,0 +1,17 @@
+---
+title: "Data visualization"
+description: |
+  I did some data viz!
+preview: https://www.macalester.edu/admissions/wp-content/uploads/sites/190/2020/01/admissions-aid-hero2-1440x0-c-default.jpg
+date: 01-01-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Let me try some viz.
+
+```{r}
+hist(rnorm(100))
+```
+

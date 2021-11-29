@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About me",
+      "description": "Here are some fun facts!",
+      "author": [],
+      "contents": "\nI can add text, links, code, plots, etc, just like any other Rmd!\n\n\n\n\n\n\n",
+      "last_modified": "2021-11-29T14:00:02-06:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Alicia A. Johnson",
+      "description": "This is my website!\n",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-11-29T14:00:02-06:00"
+    },
+    {
+      "path": "projects.html",
+      "title": "Projects",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-11-29T14:00:03-06:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
