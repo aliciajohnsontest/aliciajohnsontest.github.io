@@ -9,7 +9,7 @@
     "contents": "\nLet’s wrangle.\n\n\nlibrary(bayesrules)\nlibrary(tidyverse)\n\n\n\n\n\ndata(penguins_bayes)\npenguins_bayes %>% \n  group_by(species) %>% \n  summarize(max(flipper_length_mm))\n\n\n# A tibble: 3 x 2\n  species   `max(flipper_length_mm)`\n  <fct>                        <int>\n1 Adelie                          NA\n2 Chinstrap                      212\n3 Gentoo                          NA\n\n\n\n\n",
     "preview": "https://www.minnpost.com/wp-content/uploads/2018/09/MacalesterCollegeStoneSignThumb.png",
     "last_modified": "2021-11-29T14:10:02-06:00",
-    "input_file": "wrangling_post.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/data_viz/",
